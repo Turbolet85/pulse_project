@@ -16,9 +16,26 @@
 		text-align: center;
 		span {
 			display: block;
-			font-weight: 500;
 			font-size: 18px;
 			color: #FFFFFF;
+			margin-top: 5px;
 		}
+	}
+	&__phone {
+		display: block;
+		font-weight: 700;
+		font-size: 18px;
+		text-align: right;
+		color: #FFFFFF;
+		text-decoration: none;
+		&:hover {
+			color: #FFFFFF;
+			text-decoration: none;
+		}
+	}
+	&__contacts {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
 	}
 }
