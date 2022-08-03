@@ -1,0 +1,44 @@
+.benefits {
+    &__title {
+        margin-top: 70px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 60px;
+        margin-bottom: 65px;
+    }
+    &__box {
+        width: 280px;
+    }
+    &__icon {
+        text-align: center;
+        color: $main-color;
+        font-size: 70px;
+        line-height: 70px;
+        margin-top: 65px;
+        }
+    &__subheader {
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: #0D0D0D;
+        margin-top: 35px;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #0D0D0D;
+        a {
+            color: $main-color;
+            font-family: 'Museo Moderno', cursive;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }   
+}
