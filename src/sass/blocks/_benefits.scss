@@ -13,11 +13,22 @@
         width: 280px;
     }
     &__icon {
+        display: block;
         text-align: center;
         color: $main-color;
         font-size: 70px;
         line-height: 70px;
         margin-top: 65px;
+        &_heart {
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite; 
+            &:hover {
+                animation-play-state: paused;
+           }
+        }
+
         }
     &__subheader {
         font-weight: 700;
